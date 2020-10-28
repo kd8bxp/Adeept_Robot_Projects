@@ -7,7 +7,7 @@ Author: Tom
 Date: 2018/04/15 
 ***********************************************************/
 #include <SPI.h>
-#include "RF24.h"
+#include "src/RF24/RF24.h"
 RF24 radio(9, 10);            // define the object to control NRF24L01
 byte addresses[] = "6";       // define communication address which should correspond to remote control
 int data[9];                  // define array used to save the communication data
@@ -93,4 +93,3 @@ void loop() {
       data[4]=1;
   }   
 }
-

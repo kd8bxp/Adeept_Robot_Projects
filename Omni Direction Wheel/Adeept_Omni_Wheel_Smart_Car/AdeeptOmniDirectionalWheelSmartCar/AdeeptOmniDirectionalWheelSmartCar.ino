@@ -7,9 +7,9 @@ Author: Tom
 Date: 2018/04/15 
 ***********************************************************/
 #include <Servo.h>           // call the Servo. H library.
-#include <Adafruit_NeoPixel.h>
+#include "src/Adafruit_NeoPixel/Adafruit_NeoPixel.h"
 #include <SPI.h>
-#include "RF24.h"
+#include "src/RF24/RF24.h"
 #define VX_VALUE           (0.5f)   // macro definition
 #define VY_VALUE           (sqrt(3)/2.f)      
 #define L_value            (20*0.01f)  

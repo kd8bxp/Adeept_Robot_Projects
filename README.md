@@ -3,6 +3,11 @@
 A repository for information, code, pdfs, and more for some of the Adeept Robots I own.  
 Some of this maybe from Adeept, some of is stuff I've created, some of it maybe stuff other people have created.  
 
+## Libraries
+ 
+Because the Arduino IDE has been getting pretty bad handling libraries, I've included the libraries used in the src directory of the sketch. These libraries may have been slightly modified to work from the sketch directory, and do not include the examples.  
+
+
 ## Contributing
 
 1. Fork it!
@@ -32,3 +37,5 @@ Copyright (c) 2020 LeRoy Miller
 ## License
 
 See code or PDFs for license info.  
+
+
